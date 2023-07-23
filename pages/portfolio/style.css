@@ -1,0 +1,25 @@
+.project-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    margin: 100px 0;
+}
+
+.project-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+
+    margin: 150px 0;
+}
+
+.project-1 img {
+    width: 540px;
+}
+
+.project-2 img {
+    width: 540px;
+    margin-left: 140px;
+}

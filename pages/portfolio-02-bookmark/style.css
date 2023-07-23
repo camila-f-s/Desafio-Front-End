@@ -1,0 +1,98 @@
+/*MAIN*/
+
+.img-main {
+    display: flex;
+    justify-content: center;
+}
+
+.img-main img {
+    width: 1230px;
+    height: 500px;
+}
+
+/*SECTION*/
+
+.project {
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    margin: 100px 0;
+}
+
+.resumo {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+}
+
+.tec {
+    font-family: 'Public Sans';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5FB4A2;
+}
+
+.preview {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.preview img {
+    display: flex;
+    flex-direction: column;
+    width: 635px;
+    margin-bottom: 30px;
+}
+
+.preview h3 {
+    margin-bottom: 30px;
+}
+
+.preview p {
+    width: 635px;
+    margin-bottom: 28px;
+}
+
+/*SECTION NAV*/
+
+.navOther {
+    display: flex;
+    justify-content: space-between;
+
+    border-top: hsla(245, 11%, 22%, 0.15) 1px solid;
+    border-bottom: hsla(245, 11%, 22%, 0.15) 1px solid;
+    margin: 100px 165px;
+    padding: 30px 0px;
+
+}
+
+.other {
+    display: flex;
+    align-items: center;
+}
+
+.other img {
+    width: 8px;
+    height: 16px;
+}
+
+.before {
+    margin-right: 50px;
+}
+
+.after {
+    margin-left: 50px;
+}
+
+.before a,
+.after a {
+    text-decoration: none;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}

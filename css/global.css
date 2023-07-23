@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Public Sans', sans-serif;
+    background-color: #FAFAFA;
+}
+
+/*HEADER*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 40px 0;
+    padding: 0 150px;
+}
+
+header li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 45px;
+}
+
+header a {
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    color: #33323D;
+}
+
+header a:visited {
+    color: #5FB4A2;
+}
+
+header a:hover {
+    color: #3c786b;
+}
+
+/*TEXT*/
+
+h2 {
+    font-family: 'Ibarra Real Nova';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    color: #33323D;
+}
+
+h3 {
+    font-family: 'Ibarra Real Nova';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+
+    letter-spacing: -0.285714px;
+
+    color: #33323D;
+}
+
+p {
+    margin-bottom: 28px;
+
+    text-align: start;
+    font-family: 'Public Sans';
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+}
+
+/*BUTTONS*/
+
+.btn,
+.btn a {
+    width: 200px;
+    height: 50px;
+    border: 1px solid #33323D;
+    color: #33323D;
+
+    font-family: 'Public Sans';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+
+    background-color: transparent;
+}
+
+.btn:hover,
+.btn a:hover {
+    background-color: #33323D;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+/*SECTIONS*/
+
+.resumo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border-top: hsla(245, 11%, 22%, 0.15) 1px solid;
+    border-bottom: hsla(245, 11%, 22%, 0.15) 1px solid;
+}
+
+.resumo h2 {
+    margin-bottom: 28px;
+}
+
+.resumo p {
+    width: 430px;
+    margin-bottom: 28px;
+}
+
+/*FOOTER*/
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin: 150px 0;
+    padding: 0 150px;
+}
+
+.contact h2 {
+    width: 367px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    padding: 0 150px;
+
+    background-color: #33323D;
+}
+
+.links,
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin: 25px 0;
+}
+
+.links ul li {
+    margin-left: 25px;
+}
+
+.social ul li {
+    margin-left: 15px;
+}
+
+.links ul,
+.social ul {
+    display: flex;
+    list-style: none;
+}
+
+.links ul a,
+.social ul a {
+    text-decoration: none;
+    color: #FFF;
+}

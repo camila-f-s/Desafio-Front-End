@@ -1,0 +1,95 @@
+/*MAIN*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+main img {
+    padding: 0 150px;
+    max-width: 100%;
+}
+
+.box-h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+
+    margin: 0 150px;
+    position: absolute;
+
+    width: 485px;
+    height: 395px;
+
+    background-color: #FFF;
+}
+
+.box-h1 h1 {
+    margin: 50px 0 50px 30px;
+
+    font-family: 'Ibarra Real Nova';
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 60px;
+    letter-spacing: 1px;
+
+    color: #33323D;
+}
+
+/*BUTTON SOBRE MIM*/
+.btn-main {
+    display: flex;
+    align-items: center;
+
+    width: 220px;
+    height: 357px;
+
+    font-family: 'Public Sans';
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFF;
+
+    border: none;
+    cursor: pointer;
+    background-color: #203a4c;
+}
+
+.btn-main div {
+    margin-right: 30px;
+    padding: 20px;
+    background-color: #00000020;
+}
+
+.btn-main:hover {
+    background-color: #5FB4A2;
+    transition: 0.2s;
+}
+
+.btn-main:hover svg g {
+    stroke: #FFF;
+    transition: 0.2s;
+}
+
+/*ABOUT*/
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin: 150px 0;
+    padding: 0 150px;
+}
+
+.about img {
+    width: 540px;
+}
+
+.btn {
+    align-self: center;
+}
